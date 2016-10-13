@@ -1,0 +1,2 @@
+1.This beta driver is provided by chipset manufacturer.
+2.The official driver is under test.TP-LINK will release it as soon as possible.
