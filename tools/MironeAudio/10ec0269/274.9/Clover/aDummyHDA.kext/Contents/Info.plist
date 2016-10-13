@@ -96,10 +96,10 @@
 					<data>
 					AwAAAA==
 					</data>
-					<key>Codec</key>
-					<string>Mirone - Realtek ALC269VC</string>
 					<key>CodecID</key>
 					<integer>283902569</integer>
+					<key>CodecName</key>
+					<string>Mirone - Realtek ALC269VC</string>
 					<key>ConfigData</key>
 					<data>
 					ASccEAEnHQABJx6mAScfkAFXHCABVx0QAVce

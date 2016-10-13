@@ -1,0 +1,34 @@
+Choosen codec is Realtek ALC 269 VC v2
+Checking 16 range comparisons between 11d41984 and 10ec0269
+Found range comparison 10ec0885
+Found range comparison 11d41983
+2 codec range comparison(s) to patch
+config.plist created and copied to ~/Desktop/MironeAudio/!
+
+HDAEnabler.kext created with layout-id 3!
+Zeroing 10ec0885 codec
+	occurrences 1 of 2 expected patched!
+	occurrences 2 of 2 expected patched!
+Zeroing 11d41983 codec
+	occurrences 1 of 2 expected patched!
+	occurrences 2 of 2 expected patched!
+Patching 11d41984 with 10ec0269 codec
+	occurrences 1 of 2 expected patched!
+	occurrences 2 of 2 expected patched!
+AppleHDA binary succesfully patched!
+layout3.xml.zlib patched!
+Platforms.xml.zlib patched!
+AppleHDAHardwareConfigDriver.kext/Contents/Info.plist patched!
+AppleHDA.kext copied to ~/Desktop/MironeAudio/!
+aDummyHDA.kext generated successfully (copied to ~/Desktop/MironeAudio/)!
+
+Mirone use layout-id 3 for laptop's codecs,
+Instead for Desktop's codecs:
+layout-id 5 for 3 ports supported (Pink, Green, Blue).
+layout-id 7 for 5/6 ports supported (Grey, Black, Orange, Pink, Green, Blue).
+layout-id 9 for 5/6 ports supported (Grey, Black, Orange, Pink, Green, Blue, CodecAddress: 2).
+
+Use that to activate  AppleHDA.kext using DSDT.aml, HDAEnabler.kext, Clover patches or Enoch embedded HDAEnabler!
+
+Targhet AppleHDA.kext reset to /System/Library/Extensions/AppleHDA.kext.
+For further sessions, drag your vanilla kext to patch for specific version!
